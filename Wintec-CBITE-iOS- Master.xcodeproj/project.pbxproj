@@ -60,6 +60,7 @@
 		0EE8C6A9218E743200A3210F = {
 			isa = PBXGroup;
 			children = (
+				0EE8C6E9218FF60300A3210F /* Screens */,
 				0EE8C6D5218F87E900A3210F /* Util */,
 				0EE8C6E2218F898B00A3210F /* Model */,
 				0EE8C6C7218E77D900A3210F /* Images */,
@@ -80,7 +81,6 @@
 			isa = PBXGroup;
 			children = (
 				0EE8C6B5218E743200A3210F /* AppDelegate.swift */,
-				0EE8C6B7218E743200A3210F /* ViewController.swift */,
 				0EE8C6E3218F89DE00A3210F /* StudentHomePage.swift */,
 				0EE8C6E5218F89F400A3210F /* TeacherLogin.swift */,
 				0EE8C6B9218E743200A3210F /* Main.storyboard */,
@@ -119,6 +119,14 @@
 				0EE8C6E0218F88E400A3210F /* Student.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		0EE8C6E9218FF60300A3210F /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				0EE8C6B7218E743200A3210F /* ViewController.swift */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
