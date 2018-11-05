@@ -14,6 +14,15 @@
 		0EE8C6C0218E743400A3210F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EE8C6BE218E743400A3210F /* LaunchScreen.storyboard */; };
 		0EE8C6CB218E826700A3210F /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0EE8C6CA218E826700A3210F /* background.jpg */; };
 		0EE8C6D1218E8ED200A3210F /* winteclogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EE8C6D0218E8ED200A3210F /* winteclogo.png */; };
+		0EE8C6D7218F886B00A3210F /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE8C6D6218F886B00A3210F /* Course.swift */; };
+		0EE8C6D9218F887F00A3210F /* DataStudy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE8C6D8218F887F00A3210F /* DataStudy.swift */; };
+		0EE8C6DB218F889600A3210F /* Preload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE8C6DA218F889600A3210F /* Preload.swift */; };
+		0EE8C6DD218F88AA00A3210F /* Programme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE8C6DC218F88AA00A3210F /* Programme.swift */; };
+		0EE8C6DF218F88C600A3210F /* Semester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE8C6DE218F88C600A3210F /* Semester.swift */; };
+		0EE8C6E1218F88E400A3210F /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE8C6E0218F88E400A3210F /* Student.swift */; };
+		0EE8C6E4218F89DE00A3210F /* StudentHomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE8C6E3218F89DE00A3210F /* StudentHomePage.swift */; };
+		0EE8C6E6218F89F400A3210F /* TeacherLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE8C6E5218F89F400A3210F /* TeacherLogin.swift */; };
+		0EE8C6E8218F8C2800A3210F /* DataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE8C6E7218F8C2800A3210F /* DataHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +35,15 @@
 		0EE8C6C1218E743400A3210F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0EE8C6CA218E826700A3210F /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 		0EE8C6D0218E8ED200A3210F /* winteclogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = winteclogo.png; sourceTree = "<group>"; };
+		0EE8C6D6218F886B00A3210F /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		0EE8C6D8218F887F00A3210F /* DataStudy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStudy.swift; sourceTree = "<group>"; };
+		0EE8C6DA218F889600A3210F /* Preload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preload.swift; sourceTree = "<group>"; };
+		0EE8C6DC218F88AA00A3210F /* Programme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programme.swift; sourceTree = "<group>"; };
+		0EE8C6DE218F88C600A3210F /* Semester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Semester.swift; sourceTree = "<group>"; };
+		0EE8C6E0218F88E400A3210F /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		0EE8C6E3218F89DE00A3210F /* StudentHomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentHomePage.swift; sourceTree = "<group>"; };
+		0EE8C6E5218F89F400A3210F /* TeacherLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherLogin.swift; sourceTree = "<group>"; };
+		0EE8C6E7218F8C2800A3210F /* DataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +60,8 @@
 		0EE8C6A9218E743200A3210F = {
 			isa = PBXGroup;
 			children = (
+				0EE8C6D5218F87E900A3210F /* Util */,
+				0EE8C6E2218F898B00A3210F /* Model */,
 				0EE8C6C7218E77D900A3210F /* Images */,
 				0EE8C6B4218E743200A3210F /* Wintec-CBITE-iOS- Master */,
 				0EE8C6B3218E743200A3210F /* Products */,
@@ -61,9 +81,11 @@
 			children = (
 				0EE8C6B5218E743200A3210F /* AppDelegate.swift */,
 				0EE8C6B7218E743200A3210F /* ViewController.swift */,
+				0EE8C6E3218F89DE00A3210F /* StudentHomePage.swift */,
+				0EE8C6E5218F89F400A3210F /* TeacherLogin.swift */,
 				0EE8C6B9218E743200A3210F /* Main.storyboard */,
-				0EE8C6BC218E743400A3210F /* Assets.xcassets */,
 				0EE8C6BE218E743400A3210F /* LaunchScreen.storyboard */,
+				0EE8C6BC218E743400A3210F /* Assets.xcassets */,
 				0EE8C6C1218E743400A3210F /* Info.plist */,
 			);
 			path = "Wintec-CBITE-iOS- Master";
@@ -76,6 +98,27 @@
 				0EE8C6CA218E826700A3210F /* background.jpg */,
 			);
 			path = Images;
+			sourceTree = "<group>";
+		};
+		0EE8C6D5218F87E900A3210F /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				0EE8C6E7218F8C2800A3210F /* DataHelper.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		0EE8C6E2218F898B00A3210F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0EE8C6D6218F886B00A3210F /* Course.swift */,
+				0EE8C6D8218F887F00A3210F /* DataStudy.swift */,
+				0EE8C6DA218F889600A3210F /* Preload.swift */,
+				0EE8C6DC218F88AA00A3210F /* Programme.swift */,
+				0EE8C6DE218F88C600A3210F /* Semester.swift */,
+				0EE8C6E0218F88E400A3210F /* Student.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,8 +197,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EE8C6DD218F88AA00A3210F /* Programme.swift in Sources */,
+				0EE8C6DF218F88C600A3210F /* Semester.swift in Sources */,
+				0EE8C6D7218F886B00A3210F /* Course.swift in Sources */,
+				0EE8C6DB218F889600A3210F /* Preload.swift in Sources */,
+				0EE8C6E6218F89F400A3210F /* TeacherLogin.swift in Sources */,
+				0EE8C6D9218F887F00A3210F /* DataStudy.swift in Sources */,
 				0EE8C6B8218E743200A3210F /* ViewController.swift in Sources */,
+				0EE8C6E8218F8C2800A3210F /* DataHelper.swift in Sources */,
+				0EE8C6E4218F89DE00A3210F /* StudentHomePage.swift in Sources */,
 				0EE8C6B6218E743200A3210F /* AppDelegate.swift in Sources */,
+				0EE8C6E1218F88E400A3210F /* Student.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,7 +356,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6SWPU6K4KZ;
 				INFOPLIST_FILE = "Wintec-CBITE-iOS- Master/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,7 +375,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6SWPU6K4KZ;
 				INFOPLIST_FILE = "Wintec-CBITE-iOS- Master/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

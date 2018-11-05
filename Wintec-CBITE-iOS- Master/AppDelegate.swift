@@ -17,6 +17,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         RunLoop.current.run(until: Date(timeIntervalSinceNow: 1.5));
                 // Override point for customization after application launch.
+        
+        //let_ = Course()
+        
+        
+        
         return true
     }
 
