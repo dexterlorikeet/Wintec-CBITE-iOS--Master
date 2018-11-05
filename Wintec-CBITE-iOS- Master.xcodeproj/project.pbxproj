@@ -23,6 +23,7 @@
 		0EE8C6E4218F89DE00A3210F /* StudentHomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE8C6E3218F89DE00A3210F /* StudentHomePage.swift */; };
 		0EE8C6E6218F89F400A3210F /* TeacherLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE8C6E5218F89F400A3210F /* TeacherLogin.swift */; };
 		0EE8C6E8218F8C2800A3210F /* DataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE8C6E7218F8C2800A3210F /* DataHelper.swift */; };
+		0EE8C6EB218FFD2500A3210F /* CourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE8C6EA218FFD2500A3210F /* CourseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		0EE8C6E3218F89DE00A3210F /* StudentHomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentHomePage.swift; sourceTree = "<group>"; };
 		0EE8C6E5218F89F400A3210F /* TeacherLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherLogin.swift; sourceTree = "<group>"; };
 		0EE8C6E7218F8C2800A3210F /* DataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataHelper.swift; sourceTree = "<group>"; };
+		0EE8C6EA218FFD2500A3210F /* CourseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 		0EE8C6E9218FF60300A3210F /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				0EE8C6EA218FFD2500A3210F /* CourseViewController.swift */,
 				0EE8C6B7218E743200A3210F /* ViewController.swift */,
 			);
 			path = Screens;
@@ -210,6 +213,7 @@
 				0EE8C6D7218F886B00A3210F /* Course.swift in Sources */,
 				0EE8C6DB218F889600A3210F /* Preload.swift in Sources */,
 				0EE8C6E6218F89F400A3210F /* TeacherLogin.swift in Sources */,
+				0EE8C6EB218FFD2500A3210F /* CourseViewController.swift in Sources */,
 				0EE8C6D9218F887F00A3210F /* DataStudy.swift in Sources */,
 				0EE8C6B8218E743200A3210F /* ViewController.swift in Sources */,
 				0EE8C6E8218F8C2800A3210F /* DataHelper.swift in Sources */,
